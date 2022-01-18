@@ -1,0 +1,15 @@
+{
+  "name": "lyric-analyzer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ivan-fediaev <ivanfediaev@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "genius-lyrics-api": "^3.2.0",
+    "spotify-web-api-js": "^1.5.2"
+  },
+  "scripts": {
+    "start": "export NODE_ENV=development && node index.js"
+  }
+}
